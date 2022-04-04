@@ -1,0 +1,39 @@
+.navbar {
+    width: 100vw;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #e1e1e1;
+}
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+a h1 {
+    font-size: large;
+    color: #2B91BF
+}
+a h1 span {
+    color: #452463;
+}
+.nav-list {
+    display: flex;
+}
+.nav-list-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-icon {
+    width: 3rem;
+    margin: 0;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+}
+.nav-icon:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    filter: brightness(0.9);
+}

@@ -1,0 +1,28 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 56rem;
+    background-color: #282c34;
+    border-radius: 0.5rem;
+    color: white;
+    
+}
+
+.with-add-button {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+   width: 1.6rem;
+}
+
+.column-header {
+    border-bottom: 1px solid white ;
+}
+
+tr:nth-child(even) {
+    background-color: #2c3034;
+    
+  }

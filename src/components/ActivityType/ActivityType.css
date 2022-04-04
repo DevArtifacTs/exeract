@@ -1,0 +1,22 @@
+.activity-type-container {
+    width: 800px;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(197, 220, 239, 0.6);
+    border-radius: 15px;
+}
+
+.activity-card-container{
+    width: 40%;
+    padding: 1rem;
+}
+
+.activity-card-image {
+    margin: 1rem;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
