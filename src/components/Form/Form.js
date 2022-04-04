@@ -66,7 +66,7 @@ function Form(props){
     function handleSubmit(e){
         e.preventDefault()
         console.log('name', e.target.name.value)
-        console.log('desciption', e.target.description.value)
+        console.log('description', e.target.description.value)
         console.log('date', e.target.date.value)
         console.log('location', e.target.location.value)
         console.log('duration', e.target.duration.value)
